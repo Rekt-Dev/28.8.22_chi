@@ -10,7 +10,7 @@ export const OpenCard = (props:string) => {
   return (
     <div>
       <img
-        alt="beauty"
+        alt="beautiful"
         src={`https://www.artic.edu/iiif/2/${props.item.image_id}/full/843,/0/default.jpg`}
       />
     </div>
