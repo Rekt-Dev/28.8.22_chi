@@ -1,7 +1,7 @@
 //import { Redirect } from "./Redirect";
 import Image from "react-bootstrap/Image";
 export let Card = (props: any) => {
-  function truncate(str) {
+  function truncate(str:string) {
     return str.length > 10 ? str.substring(0, 7) + "..." : str;
   }
   function dataOrDefault() {
@@ -20,8 +20,8 @@ export let Card = (props: any) => {
   let goToArtist = () => {};
   return (
     <div className="">
-      <div className={("", "")}>
-        <div className={("", "", "", "card")}>
+      <div>
+        <div className={("card")}>
           <a href="./OpenCard">
             <Image
               roundedCircle

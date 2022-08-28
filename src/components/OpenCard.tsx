@@ -1,6 +1,6 @@
 //import { BrowserRouter as useNavigate } from "react-router-dom";
 
-export const OpenCard = (props) => {
+export const OpenCard = (props:string) => {
   //let navigate = useNavigate();
 
   /* const clickCard = () => {
@@ -10,7 +10,7 @@ export const OpenCard = (props) => {
   return (
     <div>
       <img
-        alt="beauty"
+        alt="beautiful"
         src={`https://www.artic.edu/iiif/2/${props.item.image_id}/full/843,/0/default.jpg`}
       />
     </div>
