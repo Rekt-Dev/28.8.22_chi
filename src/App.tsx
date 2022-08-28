@@ -17,13 +17,14 @@ export default function App() {
   return (
     <div className="divider">
       <div className="divider">
+        <Header />
         <Header search={getData} />
         <div></div>
 
         <div className="">
           <div className={("flexrow center ofearz")}>
-            {jsonData.item
-              ? jsonData.item.map((artWork:any, index:number) => (
+            {jsonData.data
+              ? jsonData.data.map((artWork:any, index:number) => (
                   <Card key={index} item={artWork} />
                 ))
               : "No data to show"}
