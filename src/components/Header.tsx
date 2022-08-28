@@ -6,7 +6,7 @@ export let Header = (props: any) => {
   const [search, setSearch] = useState("");
 
   return (
-    <div className={("ofearz", "center")}>
+    <div className={("ofearz center")}>
       <div className="">
         <h1 className="center">The Art Institute of Chicago</h1>
         <br />
