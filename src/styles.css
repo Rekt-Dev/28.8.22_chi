@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap");
+
+body {
+  position: relative;
+
+  background: #f2f2f2;
+}
+.p {
+  text-align: left;
+}
+.h2 {
+  text-align: center;
+}
+
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ofearz {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+}
+.center {
+  text-align: center;
+}
+
+.card {
+  border: 5px solid rgb(32, 216, 87);
+  height: 30%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.flexRow {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  justify-content: ;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alignedLeft {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.card-image {
+  height: 20px;
+  width: 20px;
+}
+
+.divider {
+  padding: 20px;
+  background-color: blanchedalmond;
+}
+
+.center {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
