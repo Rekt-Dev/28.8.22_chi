@@ -4,7 +4,7 @@ import { Header } from "./components/Header";
 import { useState } from "react";
 
 export default function App() {
-  const [jsonData, setJsonData] = useState([]);
+  const [jsonData, setJsonData] = useState<any[]>([])
 
   async function getData(searchData: any) {
     const response = await fetch(
