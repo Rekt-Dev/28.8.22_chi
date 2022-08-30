@@ -21,7 +21,7 @@ export let Card = (props: any) => {
   return (
     <div className="">
       <div>
-        <div className={("card")}>
+        <div onClick={Redirect}className={("card")}>
             <Image
               roundedCircle
               alt=" 3 cats"
