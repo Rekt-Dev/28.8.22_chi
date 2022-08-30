@@ -22,7 +22,6 @@ export let Card = (props: any) => {
     <div className="">
       <div>
         <div className={("card")}>
-          <a href="./OpenCard">
             <Image
               roundedCircle
               alt=" 3 cats"
@@ -36,7 +35,6 @@ export let Card = (props: any) => {
               className=""
               style={{ backgroundColor: "rgba(251, 251, 251, 0.2)" }}
             ></div>
-          </a>
           <ul>
             {}
             <a href="./GoToArtist">
