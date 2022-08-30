@@ -22,7 +22,6 @@ export let Card = (props: any) => {
     <div className="">
       <div>
         <div className={("card")}>
-          <a href="./OpenCard">
             <Image
               roundedCircle
               alt=" 3 cats"
@@ -36,24 +35,17 @@ export let Card = (props: any) => {
               className=""
               style={{ backgroundColor: "rgba(251, 251, 251, 0.2)" }}
             ></div>
-          </a>
           <ul>
             {}
-            <a href="./GoToArtist">
               <p className={("truncate")} onClick={goToArtist}>
                 Title: {truncate(props.item.title) || "Artist name"}
               </p>
-            </a>{" "}
-            <a href="./GoToArtist">
               <p className={("truncate")} onClick={goToArtist}>
                 Artist: {truncate(props.item.artist_title) || "Title Name"}
               </p>
-            </a>
-            <a href="./GoToArtist">
               <p className={("truncate")} onClick={goToArtist}>
                 Origin: {props.item.place_of_origin || "origin"}
               </p>
-            </a>
           </ul>
         </div>
       </div>
