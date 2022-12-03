@@ -1,6 +1,6 @@
-//import { BrowserRouter as useNavigate } from "react-router-dom";
+import { BrowserRouter as useNavigate } from "react-router-dom";
 
-export const OpenCard = (props:any) => {
+export const OpenCard = (props: any) => {
   //let navigate = useNavigate();
 
   /* const clickCard = () => {
